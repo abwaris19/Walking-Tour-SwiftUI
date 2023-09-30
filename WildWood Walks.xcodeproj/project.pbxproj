@@ -11,11 +11,6 @@
 		C90FD8602AC77A510077EC4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90FD85F2AC77A510077EC4A /* ContentView.swift */; };
 		C90FD8622AC77A530077EC4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90FD8612AC77A530077EC4A /* Assets.xcassets */; };
 		C90FD8652AC77A530077EC4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C90FD8642AC77A530077EC4A /* Preview Assets.xcassets */; };
-		C90FD8702AC7DD4D0077EC4A /* image-3.png in Resources */ = {isa = PBXBuildFile; fileRef = C90FD86B2AC7DD4D0077EC4A /* image-3.png */; };
-		C90FD8712AC7DD4D0077EC4A /* image-2.png in Resources */ = {isa = PBXBuildFile; fileRef = C90FD86C2AC7DD4D0077EC4A /* image-2.png */; };
-		C90FD8722AC7DD4D0077EC4A /* image-5.png in Resources */ = {isa = PBXBuildFile; fileRef = C90FD86D2AC7DD4D0077EC4A /* image-5.png */; };
-		C90FD8732AC7DD4D0077EC4A /* image-1.png in Resources */ = {isa = PBXBuildFile; fileRef = C90FD86E2AC7DD4D0077EC4A /* image-1.png */; };
-		C90FD8742AC7DD4D0077EC4A /* image-4.png in Resources */ = {isa = PBXBuildFile; fileRef = C90FD86F2AC7DD4D0077EC4A /* image-4.png */; };
 		C90FD8762AC7DF810077EC4A /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90FD8752AC7DF810077EC4A /* CardView.swift */; };
 		C90FD8792AC7E1920077EC4A /* customeBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90FD8782AC7E1920077EC4A /* customeBackgroundView.swift */; };
 		C90FD87F2AC7E4670077EC4A /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90FD87E2AC7E4670077EC4A /* ColorExtension.swift */; };
@@ -23,6 +18,8 @@
 		C90FD8832AC7F7240077EC4A /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90FD8822AC7F7240077EC4A /* GradientButtonStyle.swift */; };
 		C90FD8852AC7FED80077EC4A /* CustomeCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90FD8842AC7FED80077EC4A /* CustomeCircleView.swift */; };
 		C90FD8882AC801C50077EC4A /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90FD8872AC801C50077EC4A /* MotionAnimationView.swift */; };
+		C90FD88B2AC837B60077EC4A /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90FD88A2AC837B60077EC4A /* SettingView.swift */; };
+		C90FD88D2AC845490077EC4A /* CustomeListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90FD88C2AC845490077EC4A /* CustomeListRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,11 +28,6 @@
 		C90FD85F2AC77A510077EC4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C90FD8612AC77A530077EC4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C90FD8642AC77A530077EC4A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C90FD86B2AC7DD4D0077EC4A /* image-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-3.png"; sourceTree = "<group>"; };
-		C90FD86C2AC7DD4D0077EC4A /* image-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-2.png"; sourceTree = "<group>"; };
-		C90FD86D2AC7DD4D0077EC4A /* image-5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-5.png"; sourceTree = "<group>"; };
-		C90FD86E2AC7DD4D0077EC4A /* image-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-1.png"; sourceTree = "<group>"; };
-		C90FD86F2AC7DD4D0077EC4A /* image-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image-4.png"; sourceTree = "<group>"; };
 		C90FD8752AC7DF810077EC4A /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		C90FD8782AC7E1920077EC4A /* customeBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customeBackgroundView.swift; sourceTree = "<group>"; };
 		C90FD87E2AC7E4670077EC4A /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
@@ -43,6 +35,8 @@
 		C90FD8822AC7F7240077EC4A /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 		C90FD8842AC7FED80077EC4A /* CustomeCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeCircleView.swift; sourceTree = "<group>"; };
 		C90FD8872AC801C50077EC4A /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
+		C90FD88A2AC837B60077EC4A /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		C90FD88C2AC845490077EC4A /* CustomeListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeListRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +71,6 @@
 			children = (
 				C90FD87B2AC7E3EF0077EC4A /* Utility */,
 				C90FD85D2AC77A510077EC4A /* WildWood_WalksApp.swift */,
-				C90FD85F2AC77A510077EC4A /* ContentView.swift */,
 				C90FD8612AC77A530077EC4A /* Assets.xcassets */,
 				C90FD8632AC77A530077EC4A /* Preview Content */,
 				C90FD8772AC7E1360077EC4A /* Component */,
@@ -88,12 +81,8 @@
 		C90FD8632AC77A530077EC4A /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				C90FD86E2AC7DD4D0077EC4A /* image-1.png */,
-				C90FD86C2AC7DD4D0077EC4A /* image-2.png */,
-				C90FD86B2AC7DD4D0077EC4A /* image-3.png */,
-				C90FD86F2AC7DD4D0077EC4A /* image-4.png */,
-				C90FD86D2AC7DD4D0077EC4A /* image-5.png */,
 				C90FD8642AC77A530077EC4A /* Preview Assets.xcassets */,
+				C90FD8892AC837930077EC4A /* Screen */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -106,6 +95,7 @@
 				C90FD8802AC7ED270077EC4A /* CustomButtonView.swift */,
 				C90FD8842AC7FED80077EC4A /* CustomeCircleView.swift */,
 				C90FD8872AC801C50077EC4A /* MotionAnimationView.swift */,
+				C90FD88C2AC845490077EC4A /* CustomeListRowView.swift */,
 			);
 			path = Component;
 			sourceTree = "<group>";
@@ -117,6 +107,15 @@
 				C90FD8822AC7F7240077EC4A /* GradientButtonStyle.swift */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		C90FD8892AC837930077EC4A /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				C90FD85F2AC77A510077EC4A /* ContentView.swift */,
+				C90FD88A2AC837B60077EC4A /* SettingView.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,13 +176,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C90FD8742AC7DD4D0077EC4A /* image-4.png in Resources */,
-				C90FD8712AC7DD4D0077EC4A /* image-2.png in Resources */,
-				C90FD8722AC7DD4D0077EC4A /* image-5.png in Resources */,
 				C90FD8652AC77A530077EC4A /* Preview Assets.xcassets in Resources */,
 				C90FD8622AC77A530077EC4A /* Assets.xcassets in Resources */,
-				C90FD8702AC7DD4D0077EC4A /* image-3.png in Resources */,
-				C90FD8732AC7DD4D0077EC4A /* image-1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,7 +188,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C90FD88D2AC845490077EC4A /* CustomeListRowView.swift in Sources */,
 				C90FD8602AC77A510077EC4A /* ContentView.swift in Sources */,
+				C90FD88B2AC837B60077EC4A /* SettingView.swift in Sources */,
 				C90FD8792AC7E1920077EC4A /* customeBackgroundView.swift in Sources */,
 				C90FD8762AC7DF810077EC4A /* CardView.swift in Sources */,
 				C90FD8812AC7ED270077EC4A /* CustomButtonView.swift in Sources */,
@@ -326,8 +322,10 @@
 		C90FD8692AC77A530077EC4A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-Backpack AppIcon-Campfire AppIcon-Camera AppIcon-Mushroom AppIcon-Map AppIcon-MagnifyingGlass";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WildWood Walks/Preview Content\"";
@@ -354,8 +352,10 @@
 		C90FD86A2AC77A530077EC4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES = "AppIcon-Backpack AppIcon-Campfire AppIcon-Camera AppIcon-Mushroom AppIcon-Map AppIcon-MagnifyingGlass";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WildWood Walks/Preview Content\"";
