@@ -8,7 +8,9 @@
 import SwiftUI
 
 struct CardView: View {
+    @State var randomImage = 1
     var body: some View {
+        
         
         ZStack {
             customeBackgroundView()
@@ -42,11 +44,28 @@ struct CardView: View {
                     Circle()
                         .fill(LinearGradient(colors: [Color("ColorIndigoMedium"), Color("ColorSamonLight")], startPoint: .topLeading, endPoint: .bottomTrailing))
                         .frame(width: 256, height: 256)
-                    Image("image-1")
+                    Image("image-\(randomImage)")
                         .resizable()
                         .scaledToFit()
+                        .animation(.easeOut(duration: 2), value: randomImage)
+                 
                 }
                 // MARK: - FOOTER
+                
+                Button {
+                    // ACTION: Generate Random Number
+                    randomImage = Int.random(in: 1...5)
+               
+                } label: {
+                    Text("Explore More")
+                        .font(.title)
+                        .fontWeight(.heavy)
+                        .foregroundStyle(LinearGradient(colors: [.customGreenLight, .customGreenMedium], startPoint: .top, endPoint: .bottom))
+                        .shadow(color: .black.opacity(0.25), radius: 0.25, x: 1, y: 2)
+                }
+                .buttonStyle(GradientButton())
+                
+                
             } //: VSTACK
         } // : CARD SIZE
         .frame(width: 320, height: 570)

@@ -20,6 +20,7 @@
 		C90FD8792AC7E1920077EC4A /* customeBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90FD8782AC7E1920077EC4A /* customeBackgroundView.swift */; };
 		C90FD87F2AC7E4670077EC4A /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90FD87E2AC7E4670077EC4A /* ColorExtension.swift */; };
 		C90FD8812AC7ED270077EC4A /* CustomButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90FD8802AC7ED270077EC4A /* CustomButtonView.swift */; };
+		C90FD8832AC7F7240077EC4A /* GradientButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = C90FD8822AC7F7240077EC4A /* GradientButtonStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		C90FD8782AC7E1920077EC4A /* customeBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customeBackgroundView.swift; sourceTree = "<group>"; };
 		C90FD87E2AC7E4670077EC4A /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 		C90FD8802AC7ED270077EC4A /* CustomButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButtonView.swift; sourceTree = "<group>"; };
+		C90FD8822AC7F7240077EC4A /* GradientButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButtonStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				C90FD87E2AC7E4670077EC4A /* ColorExtension.swift */,
+				C90FD8822AC7F7240077EC4A /* GradientButtonStyle.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -189,6 +192,7 @@
 				C90FD8792AC7E1920077EC4A /* customeBackgroundView.swift in Sources */,
 				C90FD8762AC7DF810077EC4A /* CardView.swift in Sources */,
 				C90FD8812AC7ED270077EC4A /* CustomButtonView.swift in Sources */,
+				C90FD8832AC7F7240077EC4A /* GradientButtonStyle.swift in Sources */,
 				C90FD85E2AC77A510077EC4A /* WildWood_WalksApp.swift in Sources */,
 				C90FD87F2AC7E4670077EC4A /* ColorExtension.swift in Sources */,
 			);
